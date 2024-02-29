@@ -1,5 +1,6 @@
-
-
+getgenv().config = {
+   fps = 10
+}
 if getgenv().Executed then
     return
 end
