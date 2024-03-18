@@ -1,0 +1,15 @@
+getgenv().MoneyPrinter = {
+    toolName = "ndhn0903",
+    autoBalloons = true,
+    autoPresents = true,
+
+    serverHopper = true,
+    avoidCooldown = false,
+    minServerTime = 0, -- Avoid 268 if multi-accounting : Force stay in server for x time even if no Balloons
+
+    sendWeb = true,
+    webURL = "https://discord.com/api/webhooks/1213332008575574036/IK-AErZTDKMF8Oy6Bu42q0bwUQ-ZbUHgIcFkHl_X3BMsqRcrFRXjM9QlJahQssQbxWLb",
+
+    maybeCPUReducer = true,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hoainghia04/hnhn3/main/bl"))()
